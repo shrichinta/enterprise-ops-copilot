@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Enterprise Ops and Invoice Reconciliation Copilot, by Shridhar Ch">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1F3A"/>
+      <stop offset="0.55" stop-color="#0E3A5F"/>
+      <stop offset="1" stop-color="#0F5C6E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2EC4B6"/>
+      <stop offset="1" stop-color="#F2B134"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+
+  <!-- flow motif: document -> agent -> ledger -->
+  <g transform="translate(840,70)" stroke-width="2.5" fill="none">
+    <rect x="0" y="40" width="74" height="96" rx="8" stroke="#9FD8E0" fill="#FFFFFF" fill-opacity="0.06"/>
+    <path d="M14 66H60M14 82H60M14 98H46M14 114H54" stroke="#9FD8E0" stroke-opacity="0.8"/>
+    <path d="M86 88H136" stroke="#5FB3C4" stroke-linecap="round"/>
+    <path d="M128 80l10 8-10 8" stroke="#F2B134" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="186" cy="88" r="44" stroke="#2EC4B6" fill="#2EC4B6" fill-opacity="0.12"/>
+    <path d="M168 88l12 12 24-26" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M238 88H288" stroke="#C9A44A" stroke-linecap="round"/>
+    <path d="M280 80l10 8-10 8" stroke="#F2B134" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="300" y="44" width="72" height="88" rx="8" stroke="#F2B134" fill="#F2B134" fill-opacity="0.08"/>
+    <path d="M314 68h44M314 88h44M314 108h30" stroke="#F2B134" stroke-opacity="0.9"/>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+    <text x="64" y="92" fill="#9FD8E0" font-size="18" font-weight="600" letter-spacing="3">AGENTIC AI · UAE FINANCE OPERATIONS</text>
+    <text x="64" y="146" fill="#FFFFFF" font-size="46" font-weight="700">Enterprise Ops &amp; Invoice</text>
+    <text x="64" y="198" fill="#FFFFFF" font-size="46" font-weight="700">Reconciliation Copilot</text>
+    <rect x="64" y="218" width="120" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="258" fill="#D6E4F0" font-size="20">ERP × vendor PDF reconciliation · RBAC · prompt-injection defence · MCP</text>
+    <text x="64" y="292" fill="#F2B134" font-size="18" font-weight="600">Designed &amp; built by Shridhar Ch</text>
+  </g>
+</svg>
